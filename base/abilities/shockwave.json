@@ -1,0 +1,12 @@
+{ "id": "base.ability.shockwave", "kind": "ability",
+  "sfx": {"cast": "ability_cast"},
+  "name": "Shockwave", "description": "Deals 60 damage to all enemies in a 75-degree cone in front of the hero.",
+  "default_key": "Q", "default_fire_key": "MOUSE_LEFT",
+  "cost": {"cooldown": 6.0},
+  "cast_mobility": "locked", "duration": 0.0,
+  "damage": 60.0, "range": 110.0, "half_angle": 75.0,
+  "on_cast": [
+    {"do": "deal_damage", "area": "cone", "range": "$range", "half_angle": "$half_angle", "amount": "$damage"}
+  ],
+  "lore": {"flavor": ""}
+}

@@ -1,0 +1,10 @@
+{
+  "id": "base.tower.arrow", "kind": "tower",
+  "name": "Arrow Tower", "description": "The baseline garrison turret — cheap, reliable, no skill tree.",
+  "levels": [
+    {"cost": 60.0, "hp": 400.0, "attack_damage": 18.0, "attack_range": 115.0, "attack_cooldown": 1.0},
+    {"cost": 90.0, "hp": 650.0, "attack_damage": 32.0, "attack_range": 135.0, "attack_cooldown": 0.9}
+  ],
+  "assets": {"model_3d": "tower_arrow", "icon": "crosshair"},
+  "lore": {"flavor": ""}
+}

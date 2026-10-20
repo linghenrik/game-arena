@@ -1,0 +1,8 @@
+{
+  "id": "base.monster.pest", "kind": "monster",
+  "name": "Briar Pest", "description": "A scrappy jungle critter. Weak alone, annoying in pairs.",
+  "hp": 80.0, "speed": 70.0, "attack_damage": 6.0, "attack_range": 14.0, "attack_cooldown": 1.0,
+  "bounty": 6.0, "xp_value": 8.0, "kill_category": "jungle",
+  "assets": {"model_3d": "monster_pest", "model_fallback": "base_swarmling"},
+  "lore": {"flavor": ""}
+}

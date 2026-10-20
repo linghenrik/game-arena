@@ -1,0 +1,4 @@
+{ "id": "base.shop_item.camp_wanted_posters", "kind": "shop_item",
+  "name": "Wanted Posters", "description": "Minions your team spawns from now on see 20 units farther, so enemy heroes have fewer places to hide.",
+  "channel": "camp", "grant_kind": "team_modifier", "grants": "", "modifiers": {"minion_sight_add": 20.0}, "price": 120.0,
+  "assets": {"icon": "megaphone"}, "lore": {"flavor": ""} }

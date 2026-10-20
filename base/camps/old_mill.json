@@ -1,0 +1,1 @@
+{"id": "base.camp.old_mill", "kind": "camp", "name": "Old Mill", "description": "A warden guards the old trading post. Clear it once and your team may trade here — while it stands.", "theme": "Shop", "monsters": [{"unit": "base.monster.boss", "count": 1}], "respawn": 90.0, "leash": 250.0, "aggro_radius": 0.0, "shop": true, "catalog": [], "lore": {"summary": ""}}

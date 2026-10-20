@@ -1,0 +1,7 @@
+{
+  "id": "base.hero.lance", "kind": "hero", "hero_class": "ranger",
+  "hp": 280.0, "speed": 60.0,
+  "abilities": ["base.ability.piercing_shot"],
+  "assets": {"model_3d": "base_lance"},
+  "lore": {"title": "", "bio": "", "quote": ""}
+}

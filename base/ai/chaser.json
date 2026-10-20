@@ -1,0 +1,3 @@
+{ "id": "base.ai.chaser", "kind": "ai_profile",
+  "name": "Chaser", "description": "An aggressive AI profile with a 1.4x aggro multiplier and a long 220-unit leash that pursues targets far from its post.",
+  "aggro_mult": 1.4, "chase_leash": 220.0 }

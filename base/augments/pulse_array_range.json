@@ -1,0 +1,5 @@
+{ "id": "base.augment.pulse_array.range", "kind": "augment",
+  "name": "Long Range", "description": "Stacks to add 30 attack range to the tower per rank.",
+  "applies_to": "base.ability.tower_core_stats",
+  "deltas": {"attack_range_add": 30.0}, "stackable": true,
+  "assets": {"icon": "crosshair"}, "lore": {"flavor": ""} }

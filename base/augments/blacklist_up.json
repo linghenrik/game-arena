@@ -1,0 +1,4 @@
+{ "id": "base.augment.blacklist.up", "kind": "augment",
+  "name": "Extended Surveillance", "description": "Extends Blacklist's mark duration by 4 seconds.",
+  "applies_to": "base.ability.blacklist",
+  "deltas": {"dur": 4.0}, "lore": {"flavor": ""} }

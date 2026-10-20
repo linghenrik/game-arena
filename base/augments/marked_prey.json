@@ -1,0 +1,7 @@
+{ "id": "base.augment.marked_prey", "kind": "augment",
+  "name": "Marked Prey", "description": "Reveals the area around any enemy hit by a basic attack for 3 seconds.",
+  "applies_to": "base.ability.basic_attack_group",
+  "deltas": {"mark_radius": 60.0, "mark_dur": 3.0},
+  "add_hooks": {
+    "on_hit": [{"do": "reveal", "at": "hit", "radius": "$mark_radius", "dur": "$mark_dur"}]
+  }, "lore": {"flavor": ""} }

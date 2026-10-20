@@ -1,0 +1,1 @@
+{ "id": "base.class.ranger", "kind": "hero_class", "tag": "ranger", "strong_vs": ["elite"], "weak_vs": ["utility"], "lore": {"summary": ""} }

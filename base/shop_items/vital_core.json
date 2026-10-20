@@ -1,0 +1,4 @@
+{ "id": "base.shop_item.vital_core", "kind": "shop_item",
+  "name": "Vital Core", "description": "Grants Vital Core, increasing the hero's maximum health by 80.",
+  "channel": "hero", "grant_kind": "augment", "grants": "base.augment.vital_core", "price": 400.0,
+  "assets": {"icon": "health-potion"}, "lore": {"flavor": ""} }

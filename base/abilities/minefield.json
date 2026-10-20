@@ -1,0 +1,9 @@
+{ "id": "base.ability.minefield", "kind": "ability",
+  "sfx": {"cast": "ability_cast"},
+  "name": "Minefield", "description": "Seeds the approach with proximity charges.",
+  "cost": {"cooldown": 32.0}, "cast_mobility": "locked", "duration": 0.0,
+  "cast_range": 600.0,
+  "mine_count": 1, "mine_ttl": 25.0, "blast_radius": 70.0, "blast_damage": 35.0,
+  "assets": {"icon": "land-mine"},
+  "on_cast": [{"do": "spawn", "unit": "base.unit.mine", "count": "$mine_count", "at": "cast_at", "ttl": "$mine_ttl"}],
+  "on_expire": [{"do": "deal_damage", "area": "circle", "at": "expired", "radius": "$blast_radius", "amount": "$blast_damage"}], "lore": {"flavor": ""} }

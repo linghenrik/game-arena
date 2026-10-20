@@ -1,0 +1,4 @@
+{ "id": "base.shop_item.overcharge_cell", "kind": "shop_item",
+  "name": "Overcharge Cell", "description": "Grants Overcharge Cell, increasing the hero's maximum energy by 25.",
+  "channel": "hero", "grant_kind": "augment", "grants": "base.augment.overcharge_cell", "price": 350.0,
+  "assets": {"icon": "laser-warning"}, "lore": {"flavor": ""} }

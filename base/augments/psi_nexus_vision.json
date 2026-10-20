@@ -1,0 +1,5 @@
+{ "id": "base.augment.psi_nexus.vision", "kind": "augment",
+  "name": "Vision", "description": "Stacks to add 60 sight radius to the tower per rank.",
+  "applies_to": "base.ability.tower_core_stats",
+  "deltas": {"sight_add": 60.0}, "stackable": true,
+  "assets": {"icon": "eye-target"}, "lore": {"flavor": ""} }

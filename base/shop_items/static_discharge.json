@@ -1,0 +1,4 @@
+{ "id": "base.shop_item.static_discharge", "kind": "shop_item",
+  "name": "Static Discharge", "description": "Grants Static Discharge, making basic attacks deal an extra 15 damage in a 120-radius burst on hit.",
+  "channel": "hero", "grant_kind": "augment", "grants": "base.augment.static_discharge", "price": 500.0,
+  "assets": {"icon": "explosion-rays"}, "lore": {"flavor": ""} }

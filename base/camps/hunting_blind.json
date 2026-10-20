@@ -1,0 +1,11 @@
+{
+  "id": "base.camp.hunting_blind", "kind": "camp",
+  "name": "Hunting Blind", "description": "A camouflaged blind overlooking the jungle, held by whatever it was built to watch.",
+  "theme": "Jungle control",
+  "monsters": [{"unit": "base.monster.brute", "count": 1}, {"unit": "base.monster.pest", "count": 2}],
+  "respawn": 60.0, "leash": 250.0, "aggro_radius": 180.0, "shop": false,
+  "catalog": [
+    {"item": "base.shop_item.camp_bait_lines", "unlock": {"team_camp_clears_of_B3": 1, "team_camp_clears": 3}}
+  ],
+  "lore": {"summary": ""}
+}

@@ -1,0 +1,4 @@
+{ "id": "base.augment.photon_lift.up", "kind": "augment",
+  "name": "Extended Launch", "description": "Extends Photon Lift's stun duration by 0.5s on heroes and 1.5s on minions.",
+  "applies_to": "base.ability.photon_lift",
+  "deltas": {"hero_dur": 0.5, "minion_dur": 1.5}, "lore": {"flavor": ""} }

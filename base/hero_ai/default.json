@@ -1,0 +1,11 @@
+{
+  "id": "base.hero_ai.default",
+  "kind": "hero_ai",
+  "low_hp_frac": 0.25,
+  "on_tick": [
+    {"do": "hero_cast"},
+    {"do": "hero_cast"},
+    {"do": "hero_move"},
+    {"do": "hero_buy_item"}
+  ]
+}

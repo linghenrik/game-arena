@@ -1,0 +1,3 @@
+{ "id": "base.augment.farsight_charm", "kind": "augment",
+  "name": "Farsight Charm", "description": "Increases the hero's sight radius by 40.",
+  "applies_to": "base.ability.core_stats", "deltas": {"sight_add": 40.0}, "lore": {"flavor": ""} }

@@ -1,0 +1,4 @@
+{ "id": "base.augment.reap_and_sow.up", "kind": "augment",
+  "name": "Deep Roots", "description": "Extends Reap & Sow's root duration by 1 second.",
+  "applies_to": "base.ability.reap_and_sow",
+  "deltas": {"dur": 1.0}, "lore": {"flavor": ""} }

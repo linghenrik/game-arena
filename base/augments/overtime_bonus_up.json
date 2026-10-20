@@ -1,0 +1,4 @@
+{ "id": "base.augment.overtime_bonus.up", "kind": "augment",
+  "name": "Extended Shift", "description": "Extends Overtime Bonus's income boost duration by 10 seconds.",
+  "applies_to": "base.ability.overtime_bonus",
+  "deltas": {"dur": 10.0}, "lore": {"flavor": ""} }

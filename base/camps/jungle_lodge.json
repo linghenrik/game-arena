@@ -1,0 +1,12 @@
+{
+  "id": "base.camp.jungle_lodge", "kind": "camp",
+  "name": "Jungle Lodge", "description": "A scouting post tucked in the trees, guarded by whatever is nesting there.",
+  "theme": "Scouting",
+  "monsters": [{"unit": "base.monster.brute", "count": 1}, {"unit": "base.monster.pest", "count": 2}],
+  "respawn": 60.0, "leash": 250.0, "aggro_radius": 180.0, "shop": false,
+  "catalog": [
+    {"item": "base.shop_item.camp_trail_scouts", "unlock": {"team_camp_clears_of_A2": 1, "team_camp_clears": 2}},
+    {"signature_slot": 0, "unlock": {"team_camp_clears_of_A2": 3, "team_camp_clears": 6}}
+  ],
+  "lore": {"summary": ""}
+}

@@ -1,0 +1,16 @@
+{ "id": "base.ability.piercing_shot", "kind": "ability",
+  "sfx": {"cast": "ability_cast"},
+  "name": "Piercing Shot", "description": "Fires a piercing projectile that deals 45 damage to every enemy it passes through.",
+  "default_key": "Q", "default_fire_key": "MOUSE_LEFT",
+  "cost": {"cooldown": 5.0},
+  "cast_mobility": "locked", "duration": 0.0,
+  "damage": 45.0, "range": 400.0, "speed": 700.0, "radius": 9.0,
+  "proj_count": 1, "spread_deg": 12.0,
+  "assets": {"icon": "bow-arrow"},
+  "on_cast": [
+    {"do": "spawn", "archetype": "projectile", "count": "$proj_count", "spread_deg": "$spread_deg",
+     "speed": "$speed", "hit_radius": "$radius", "range": "$range", "pierce": true}
+  ],
+  "on_hit": [{"do": "deal_damage", "target": "hit", "amount": "$damage"}],
+  "lore": {"flavor": ""}
+}

@@ -1,0 +1,70 @@
+{
+  "id": "base.commander_ai.default",
+  "kind": "commander_ai",
+  "worker_fill_frac": 0.5,
+  "on_tick": [
+    {"do": "buy_worker"},
+    {"do": "buy_worker"},
+    {"do": "build_tower"},
+    {"do": "build_tower"},
+    {"do": "build_tower"},
+    {"do": "build_tower"},
+    {"do": "build_tower"},
+    {"do": "build_tower"},
+    {"do": "tower_skill"},
+    {"do": "tower_skill"},
+    {"do": "tower_skill"},
+    {"do": "tower_skill"},
+    {"do": "tower_skill"},
+    {"do": "tower_skill"},
+    {"do": "tower_cast"},
+    {"do": "tower_cast"},
+    {"do": "tower_cast"},
+    {"do": "tower_cast"},
+    {"do": "tower_cast"},
+    {"do": "tower_cast"},
+    {"do": "buy_camp_upgrade"},
+    {"do": "buy_camp_upgrade"},
+    {"do": "buy_camp_upgrade"},
+    {"do": "buy_worker"},
+    {
+      "if": {"ask": "own_supply", "gt": 100.0},
+      "then": [{"do": "queue_wave"}],
+      "else": []
+    },
+    {
+      "if": {"ask": "lane_pressure", "lane": 0, "gt": 0.5},
+      "then": [{"do": "lane_command", "lane": 0, "mode": "push"}],
+      "else": [
+        {
+          "if": {"ask": "lane_pressure", "lane": 0, "lt": -0.5},
+          "then": [{"do": "lane_command", "lane": 0, "mode": "defend"}],
+          "else": [{"do": "lane_command", "lane": 0, "mode": "none"}]
+        }
+      ]
+    },
+    {
+      "if": {"ask": "lane_pressure", "lane": 1, "gt": 0.5},
+      "then": [{"do": "lane_command", "lane": 1, "mode": "push"}],
+      "else": [
+        {
+          "if": {"ask": "lane_pressure", "lane": 1, "lt": -0.5},
+          "then": [{"do": "lane_command", "lane": 1, "mode": "defend"}],
+          "else": [{"do": "lane_command", "lane": 1, "mode": "none"}]
+        }
+      ]
+    },
+    {
+      "if": {"ask": "lane_pressure", "lane": 2, "gt": 0.5},
+      "then": [{"do": "lane_command", "lane": 2, "mode": "push"}],
+      "else": [
+        {
+          "if": {"ask": "lane_pressure", "lane": 2, "lt": -0.5},
+          "then": [{"do": "lane_command", "lane": 2, "mode": "defend"}],
+          "else": [{"do": "lane_command", "lane": 2, "mode": "none"}]
+        }
+      ]
+    },
+    {"wait": 2.0}
+  ]
+}

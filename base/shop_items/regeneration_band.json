@@ -1,0 +1,4 @@
+{ "id": "base.shop_item.regeneration_band", "kind": "shop_item",
+  "name": "Regeneration Band", "description": "Grants Regeneration Band, increasing the hero's HP regeneration by 3 per second.",
+  "channel": "hero", "grant_kind": "augment", "grants": "base.augment.regeneration_band", "price": 350.0,
+  "assets": {"icon": "thorny-vine"}, "lore": {"flavor": ""} }

@@ -1,0 +1,4 @@
+{ "id": "base.shop_item.chilling_edge", "kind": "shop_item",
+  "name": "Chilling Edge", "description": "Grants Chilling Edge, slowing enemies hit by basic attacks to 60% speed for 2 seconds.",
+  "channel": "hero", "grant_kind": "augment", "grants": "base.augment.chilling_edge", "price": 500.0,
+  "assets": {"icon": "ice-cube"}, "lore": {"flavor": ""} }

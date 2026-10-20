@@ -1,0 +1,8 @@
+{ "id": "base.ability.barrier", "kind": "ability",
+  "sfx": {"cast": "ability_cast"},
+  "name": "Barrier", "description": "Shields the hero with 0.4 bonus armor for 3 seconds.",
+  "cost": {"cooldown": 30.0, "energy": 35.0}, "cast_mobility": "mobile", "duration": 0.0,
+  "shield_dur": 3.0, "shield_armor": 0.4,
+  "on_cast": [
+    {"do": "apply_status", "target": "self", "tag": "barrier", "dur": "$shield_dur", "armor_add": "$shield_armor"}
+  ], "lore": {"flavor": ""} }

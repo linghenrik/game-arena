@@ -1,0 +1,9 @@
+{ "id": "base.augment.static_discharge", "kind": "augment",
+  "name": "Static Discharge", "description": "Basic attacks deal an extra 15 damage in a 120-radius burst around the target on hit.",
+  "applies_to": "base.ability.basic_attack_group",
+  "deltas": {"chain_damage": 15.0, "chain_radius": 120.0},
+  "add_hooks": {
+    "on_hit": [
+      {"do": "deal_damage", "area": "circle", "at": "hit", "radius": "$chain_radius", "amount": "$chain_damage"}
+    ]
+  }, "lore": {"flavor": ""} }

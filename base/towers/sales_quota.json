@@ -1,0 +1,10 @@
+{ "id": "base.tower.sales_quota", "kind": "tower",
+  "name": "Sales Quota", "description": "Aggressive outbound turret that hits hard from range and punishes stragglers.",
+  "levels": [{"cost": 68.0, "hp": 370.0, "attack_damage": 20.0, "attack_range": 155.0, "attack_cooldown": 1.0}],
+  "skill_point_costs": [80.0, 120.0, 160.0],
+  "skills": [
+    {"kind": "stat", "augment": "base.augment.sales_quota.range"},
+    {"kind": "stat", "augment": "base.augment.sales_quota.damage"},
+    {"kind": "active", "ability": "base.ability.blacklist", "augments": ["base.augment.blacklist.up"]}
+  ],
+  "assets": {"model_3d": "tower_sales_quota", "model_fallback": "tower_arrow", "icon": "megaphone"}, "lore": {"flavor": ""} }

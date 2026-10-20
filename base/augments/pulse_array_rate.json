@@ -1,0 +1,5 @@
+{ "id": "base.augment.pulse_array.rate", "kind": "augment",
+  "name": "Rate of Fire", "description": "Stacks to cut 0.15 seconds off the tower's attack cooldown per rank.",
+  "applies_to": "base.ability.tower_core_stats",
+  "deltas": {"attack_cooldown_add": -0.15}, "stackable": true,
+  "assets": {"icon": "bullets"}, "lore": {"flavor": ""} }

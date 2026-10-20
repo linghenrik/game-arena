@@ -1,0 +1,10 @@
+{ "id": "base.tower.timeclock", "kind": "tower",
+  "name": "Timeclock", "description": "Punches in, punches out on schedule — a dependable all-rounder.",
+  "levels": [{"cost": 60.0, "hp": 400.0, "attack_damage": 18.0, "attack_range": 115.0, "attack_cooldown": 1.0}],
+  "skill_point_costs": [80.0, 120.0, 160.0],
+  "skills": [
+    {"kind": "stat", "augment": "base.augment.timeclock.damage"},
+    {"kind": "stat", "augment": "base.augment.timeclock.aoe"},
+    {"kind": "active", "ability": "base.ability.overtime_bonus", "augments": ["base.augment.overtime_bonus.up"]}
+  ],
+  "assets": {"model_3d": "tower_timeclock", "model_fallback": "tower_arrow", "icon": "control-tower"}, "lore": {"flavor": ""} }

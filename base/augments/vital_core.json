@@ -1,0 +1,3 @@
+{ "id": "base.augment.vital_core", "kind": "augment",
+  "name": "Vital Core", "description": "Increases the hero's maximum health by 80.",
+  "applies_to": "base.ability.core_stats", "deltas": {"max_health_add": 80.0}, "lore": {"flavor": ""} }

@@ -1,0 +1,3 @@
+{ "id": "base.augment.iron_plating", "kind": "augment",
+  "name": "Iron Plating", "description": "Increases the hero's armor by 0.05.",
+  "applies_to": "base.ability.core_stats", "deltas": {"armor_add": 0.05}, "lore": {"flavor": ""} }

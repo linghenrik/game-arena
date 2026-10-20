@@ -1,0 +1,9 @@
+{ "id": "base.ability.snare_trap", "kind": "ability",
+  "sfx": {"cast": "ability_cast"},
+  "name": "Snare Trap", "description": "Roots nearby enemies within a 180 radius of the hero for 1.5 seconds.",
+  "cost": {"cooldown": 22.0, "energy": 30.0}, "cast_mobility": "locked", "duration": 0.0,
+  "snare_radius": 180.0, "root_dur": 1.5,
+  "on_cast": [
+    {"do": "apply_status", "area": "circle", "at": "caster", "radius": "$snare_radius",
+     "tag": "root", "dur": "$root_dur"}
+  ], "lore": {"flavor": ""} }

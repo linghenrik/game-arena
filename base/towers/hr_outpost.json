@@ -1,0 +1,10 @@
+{ "id": "base.tower.hr_outpost", "kind": "tower",
+  "name": "HR Outpost", "description": "Mandatory-fun compliance turret that onboards nearby minions into the fight.",
+  "levels": [{"cost": 65.0, "hp": 360.0, "attack_damage": 15.0, "attack_range": 120.0, "attack_cooldown": 1.0}],
+  "skill_point_costs": [80.0, 120.0, 160.0],
+  "skills": [
+    {"kind": "stat", "augment": "base.augment.hr_outpost.vision"},
+    {"kind": "stat", "augment": "base.augment.hr_outpost.aoe"},
+    {"kind": "active", "ability": "base.ability.group_onboarding", "augments": ["base.augment.group_onboarding.up"]}
+  ],
+  "assets": {"model_3d": "tower_hr_outpost", "model_fallback": "tower_arrow", "icon": "shaking-hands"}, "lore": {"flavor": ""} }

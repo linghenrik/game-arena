@@ -1,0 +1,4 @@
+{ "id": "base.shop_item.barrier", "kind": "shop_item",
+  "name": "Barrier", "description": "Grants the Barrier ability, shielding the hero with 0.4 bonus armor for 3 seconds on cast.",
+  "channel": "hero", "grant_kind": "ability", "grants": "base.ability.barrier", "price": 550.0,
+  "assets": {"icon": "energy-shield"}, "lore": {"flavor": ""} }

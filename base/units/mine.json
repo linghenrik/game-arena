@@ -1,0 +1,10 @@
+{
+  "id": "base.unit.mine", "kind": "minion", "house_tag": "utility",
+  "name": "Proximity Mine", "description": "A free, fast-moving mine deployed by Minefield that arms and detonates 1.2 seconds after spawning.",
+  "cost": 0.0, "hp": 20.0, "speed": 200.0,
+  "attack_damage": 0.0, "attack_range": 5.0, "attack_cooldown": 1.0,
+  "aggro_radius": 90.0, "mine_fuse": 1.2,
+  "body": {"radius": 6.0},
+  "assets": {"model_3d": "base_mine", "model_fallback": "placeholder"},
+  "lore": {"flavor": ""}
+}

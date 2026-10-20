@@ -1,0 +1,4 @@
+{ "id": "base.shop_item.camp_compound_interest", "kind": "shop_item",
+  "name": "Compound Interest", "description": "Each of your workers earns 0.6 more supply per second.",
+  "channel": "camp", "grant_kind": "team_modifier", "grants": "", "modifiers": {"worker_income_add": 0.6}, "price": 220.0,
+  "assets": {"icon": "shaking-hands"}, "lore": {"flavor": ""} }

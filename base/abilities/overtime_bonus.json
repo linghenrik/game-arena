@@ -1,0 +1,8 @@
+{ "id": "base.ability.overtime_bonus", "kind": "ability",
+  "sfx": {"cast": "ability_cast"},
+  "name": "Overtime Bonus", "description": "Temporarily boosts the team's supply income.",
+  "cost": {"cooldown": 30.0}, "cast_mobility": "locked", "duration": 0.0,
+  "cast_target": "none",
+  "mult": 1.5, "dur": 20.0,
+  "assets": {"icon": "coins"},
+  "on_cast": [{"do": "boost_income", "mult": "$mult", "dur": "$dur"}], "lore": {"flavor": ""} }

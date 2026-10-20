@@ -1,0 +1,8 @@
+{ "id": "base.ability.reap_and_sow", "kind": "ability",
+  "sfx": {"cast": "ability_cast"},
+  "name": "Reap & Sow", "description": "Roots enemies in a 160 radius around the target point for 2 seconds.",
+  "cost": {"cooldown": 26.0}, "cast_mobility": "locked", "duration": 0.0,
+  "cast_range": 600.0,
+  "radius": 160.0, "dur": 2.0,
+  "assets": {"icon": "thorny-vine"},
+  "on_cast": [{"do": "apply_status", "area": "circle", "at": "cast_at", "radius": "$radius", "tag": "root", "dur": "$dur"}], "lore": {"flavor": ""} }

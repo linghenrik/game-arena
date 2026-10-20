@@ -1,0 +1,4 @@
+{ "id": "base.shop_item.camp_bait_lines", "kind": "shop_item",
+  "name": "Bait Lines", "description": "Jungle camps on your side respawn 10 seconds sooner.",
+  "channel": "camp", "grant_kind": "team_modifier", "grants": "", "modifiers": {"camp_respawn_add": -10.0}, "price": 100.0,
+  "assets": {"icon": "thorny-vine"}, "lore": {"flavor": ""} }

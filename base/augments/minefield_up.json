@@ -1,0 +1,4 @@
+{ "id": "base.augment.minefield.up", "kind": "augment",
+  "name": "Bulk Order", "description": "Adds one extra mine to each cast of Minefield.",
+  "applies_to": "base.ability.minefield",
+  "deltas": {"mine_count": 1}, "lore": {"flavor": ""} }

@@ -1,0 +1,12 @@
+{
+  "id": "base.camp.counting_house", "kind": "camp",
+  "name": "Counting House", "description": "A strongbox outpost that pays out to whichever team clears its guards.",
+  "theme": "Economy",
+  "monsters": [{"unit": "base.monster.brute", "count": 1}, {"unit": "base.monster.pest", "count": 2}],
+  "respawn": 60.0, "leash": 250.0, "aggro_radius": 180.0, "shop": false,
+  "catalog": [
+    {"item": "base.shop_item.camp_overtime_pay", "unlock": {"team_camp_clears_of_B1": 1, "team_supply_earned": 800}},
+    {"item": "base.shop_item.camp_compound_interest", "unlock": {"team_camp_clears_of_B1": 3, "team_supply_earned": 2000}}
+  ],
+  "lore": {"summary": ""}
+}

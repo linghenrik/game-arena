@@ -1,0 +1,13 @@
+{ "id": "base.ability.photon_lift", "kind": "ability",
+  "sfx": {"cast": "ability_cast"},
+  "name": "Photon Lift", "description": "Launches a target skyward, delaying its advance.",
+  "cost": {"cooldown": 30.0}, "cast_mobility": "locked", "duration": 0.0,
+  "cast_range": 600.0,
+  "radius": 170.0, "hero_dur": 1.0, "minion_dur": 3.0,
+  "assets": {"icon": "laser-warning"},
+  "on_cast": [
+    {"do": "apply_status", "area": "circle", "at": "cast_at", "radius": "$radius",
+     "kind": "hero", "tag": "stun", "dur": "$hero_dur"},
+    {"do": "apply_status", "area": "circle", "at": "cast_at", "radius": "$radius",
+     "kind": "minion", "tag": "stun", "dur": "$minion_dur"}
+  ], "lore": {"flavor": ""} }

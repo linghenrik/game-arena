@@ -1,0 +1,4 @@
+{ "id": "base.shop_item.camp_overtime_pay", "kind": "shop_item",
+  "name": "Overtime Pay", "description": "Each of your workers earns 0.3 more supply per second.",
+  "channel": "camp", "grant_kind": "team_modifier", "grants": "", "modifiers": {"worker_income_add": 0.3}, "price": 150.0,
+  "assets": {"icon": "coins"}, "lore": {"flavor": ""} }

@@ -1,0 +1,3 @@
+{ "id": "base.ability.tower_core_stats", "kind": "ability",
+  "name": "Tower Core Stats", "description": "An internal anchor point that tower stat augments modify and has no effect on its own.",
+  "cost": {}, "duration": 0.0, "lore": {"flavor": ""} }

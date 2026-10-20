@@ -1,0 +1,4 @@
+{ "id": "base.shop_item.arcane_recovery", "kind": "shop_item",
+  "name": "Arcane Recovery", "description": "Grants Arcane Recovery, healing the hero for 30 HP each time they cast an active ability.",
+  "channel": "hero", "grant_kind": "augment", "grants": "base.augment.arcane_recovery", "price": 400.0,
+  "assets": {"icon": "thorny-vine"}, "lore": {"flavor": ""} }

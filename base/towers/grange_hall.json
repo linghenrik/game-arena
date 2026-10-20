@@ -1,0 +1,10 @@
+{ "id": "base.tower.grange_hall", "kind": "tower",
+  "name": "Grange Hall", "description": "A converted co-op barn — slow to hit but keeps the lane lit for the whole team.",
+  "levels": [{"cost": 65.0, "hp": 370.0, "attack_damage": 15.0, "attack_range": 125.0, "attack_cooldown": 1.0}],
+  "skill_point_costs": [80.0, 120.0, 160.0],
+  "skills": [
+    {"kind": "stat", "augment": "base.augment.grange_hall.vision"},
+    {"kind": "stat", "augment": "base.augment.grange_hall.aoe"},
+    {"kind": "active", "ability": "base.ability.reap_and_sow", "augments": ["base.augment.reap_and_sow.up"]}
+  ],
+  "assets": {"model_3d": "tower_grange_hall", "model_fallback": "tower_arrow", "icon": "barn"}, "lore": {"flavor": ""} }

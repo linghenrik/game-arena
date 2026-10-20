@@ -1,0 +1,3 @@
+{ "id": "base.augment.swift_boots", "kind": "augment",
+  "name": "Swift Boots", "description": "Increases the hero's move speed by 15.",
+  "applies_to": "base.ability.core_stats", "deltas": {"move_speed_add": 15.0}, "lore": {"flavor": ""} }

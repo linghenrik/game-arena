@@ -1,0 +1,4 @@
+{ "id": "base.augment.group_onboarding.up", "kind": "augment",
+  "name": "Extended Onboarding", "description": "Increases Group Onboarding's heal amount by 30.",
+  "applies_to": "base.ability.group_onboarding",
+  "deltas": {"amount": 30.0}, "lore": {"flavor": ""} }

@@ -1,0 +1,7 @@
+{ "id": "base.ability.second_wind", "kind": "ability",
+  "sfx": {"cast": "ability_cast"},
+  "name": "Second Wind", "description": "Heals the hero for 90 HP on cast.",
+  "cost": {"cooldown": 25.0, "energy": 25.0}, "cast_mobility": "mobile", "duration": 0.0,
+  "heal_amount": 90.0,
+  "assets": {"icon": "health-potion"},
+  "on_cast": [{"do": "heal", "target": "self", "amount": "$heal_amount"}], "lore": {"flavor": ""} }

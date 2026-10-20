@@ -1,0 +1,4 @@
+{ "id": "base.augment.stasis_lattice.up", "kind": "augment",
+  "name": "Wider Freeze", "description": "Increases Stasis Lattice's stun radius by 20.",
+  "applies_to": "base.ability.stasis_lattice",
+  "deltas": {"radius": 20.0}, "lore": {"flavor": ""} }

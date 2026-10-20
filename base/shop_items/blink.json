@@ -1,0 +1,4 @@
+{ "id": "base.shop_item.blink", "kind": "shop_item",
+  "name": "Blink", "description": "Grants the Blink ability, instantly dashing the hero 350 units in the chosen direction.",
+  "channel": "hero", "grant_kind": "ability", "grants": "base.ability.blink", "price": 500.0,
+  "assets": {"icon": "bullets"}, "lore": {"flavor": ""} }

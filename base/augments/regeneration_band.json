@@ -1,0 +1,3 @@
+{ "id": "base.augment.regeneration_band", "kind": "augment",
+  "name": "Regeneration Band", "description": "Increases the hero's HP regeneration by 3 per second.",
+  "applies_to": "base.ability.core_stats", "deltas": {"hp_regen_add": 3.0}, "lore": {"flavor": ""} }

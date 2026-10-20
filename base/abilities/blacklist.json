@@ -1,0 +1,7 @@
+{ "id": "base.ability.blacklist", "kind": "ability",
+  "sfx": {"cast": "ability_cast"},
+  "name": "Blacklist", "description": "Reveals a wide area around the target for several seconds.",
+  "cost": {"cooldown": 22.0}, "cast_mobility": "locked", "duration": 0.0,
+  "radius": 260.0, "dur": 6.0,
+  "assets": {"icon": "cctv-camera"},
+  "on_cast": [{"do": "reveal", "at": "cast_at", "radius": "$radius", "dur": "$dur"}], "lore": {"flavor": ""} }

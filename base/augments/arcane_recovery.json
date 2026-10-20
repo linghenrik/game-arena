@@ -1,0 +1,6 @@
+{ "id": "base.augment.arcane_recovery", "kind": "augment",
+  "name": "Arcane Recovery", "description": "Heals the hero for 30 HP whenever they cast an active ability.",
+  "applies_to": "base.ability.active_skills_group",
+  "add_hooks": {
+    "on_cast": [{"do": "heal", "target": "self", "amount": 30.0}]
+  }, "lore": {"flavor": ""} }

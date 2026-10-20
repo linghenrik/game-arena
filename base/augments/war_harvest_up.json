@@ -1,0 +1,4 @@
+{ "id": "base.augment.war_harvest.up", "kind": "augment",
+  "name": "Extended Harvest", "description": "Extends War Harvest's damage buff duration by 4 seconds.",
+  "applies_to": "base.ability.war_harvest",
+  "deltas": {"dur": 4.0}, "lore": {"flavor": ""} }

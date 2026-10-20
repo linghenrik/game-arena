@@ -1,0 +1,11 @@
+{ "id": "base.ability.stasis_lattice", "kind": "ability",
+  "sfx": {"cast": "ability_cast"},
+  "name": "Stasis Lattice", "description": "Freezes a target in place briefly.",
+  "cost": {"cooldown": 25.0}, "cast_mobility": "locked", "duration": 0.0,
+  "cast_range": 600.0,
+  "radius": 40.0, "dur": 1.5,
+  "assets": {"icon": "ice-cube"},
+  "on_cast": [
+    {"do": "apply_status", "area": "circle", "at": "cast_at", "radius": "$radius",
+     "tag": "stun", "dur": "$dur", "filter": "all"}
+  ], "lore": {"flavor": ""} }

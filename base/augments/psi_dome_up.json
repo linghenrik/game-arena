@@ -1,0 +1,4 @@
+{ "id": "base.augment.psi_dome.up", "kind": "augment",
+  "name": "Wider Coverage", "description": "Increases Psi Dome's radius by 60.",
+  "applies_to": "base.ability.psi_dome",
+  "deltas": {"radius": 60.0}, "lore": {"flavor": ""} }

@@ -1,0 +1,6 @@
+{ "id": "base.ability.scout_pulse", "kind": "ability",
+  "sfx": {"cast": "ability_cast"},
+  "name": "Scout Pulse", "description": "Reveals the area within a 260 radius of the hero for 4 seconds.",
+  "cost": {"cooldown": 25.0, "energy": 20.0}, "cast_mobility": "mobile", "duration": 0.0,
+  "reveal_radius": 260.0, "reveal_dur": 4.0,
+  "on_cast": [{"do": "reveal", "at": "caster", "radius": "$reveal_radius", "dur": "$reveal_dur"}], "lore": {"flavor": ""} }

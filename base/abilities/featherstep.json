@@ -1,0 +1,8 @@
+{ "id": "base.ability.featherstep", "kind": "ability",
+  "sfx": {"cast": "ability_cast"},
+  "name": "Featherstep", "description": "Boosts the hero's move speed by 50% for 2 seconds.",
+  "cost": {"cooldown": 12.0, "energy": 15.0}, "cast_mobility": "mobile", "duration": 0.0,
+  "haste_dur": 2.0, "haste_mult": 1.5,
+  "on_cast": [
+    {"do": "apply_status", "target": "self", "tag": "featherstep", "dur": "$haste_dur", "speed_mult": "$haste_mult"}
+  ], "lore": {"flavor": ""} }

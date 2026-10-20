@@ -1,0 +1,8 @@
+{
+  "id": "base.monster.brute", "kind": "monster",
+  "name": "Thicket Brute", "description": "A heavy jungle brawler that hits hard and shrugs off chip damage.",
+  "hp": 220.0, "speed": 60.0, "attack_damage": 14.0, "attack_range": 19.0, "attack_cooldown": 1.2,
+  "bounty": 15.0, "xp_value": 20.0, "kill_category": "jungle",
+  "assets": {"model_3d": "monster_brute", "model_fallback": "base_bruiser"},
+  "lore": {"flavor": ""}
+}

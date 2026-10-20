@@ -1,0 +1,11 @@
+{ "id": "base.ability.war_harvest", "kind": "ability",
+  "sfx": {"cast": "ability_cast"},
+  "name": "War Harvest", "description": "Buffs nearby allies' damage for several seconds.",
+  "cost": {"cooldown": 26.0}, "cast_mobility": "locked", "duration": 0.0,
+  "cast_range": 900.0,
+  "radius": 180.0, "dur": 8.0, "dmg_mult": 1.3,
+  "assets": {"icon": "pitchfork"},
+  "on_cast": [
+    {"do": "apply_status", "area": "circle", "at": "cast_at", "radius": "$radius",
+     "filter": "ally", "tag": "war_harvest", "dur": "$dur", "dmg_mult": "$dmg_mult"}
+  ], "lore": {"flavor": ""} }

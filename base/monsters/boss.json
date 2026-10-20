@@ -1,0 +1,9 @@
+{
+  "id": "base.monster.boss", "kind": "monster",
+  "name": "Old Mill Warden", "description": "The armored guardian of the old trading post. Tough enough to need a real push.",
+  "hp": 300.0, "speed": 55.0, "attack_damage": 15.0, "attack_range": 26.0, "attack_cooldown": 2.0,
+  "bounty": 70.0, "xp_value": 90.0, "kill_category": "jungle",
+  "body": {"radius": 20.0},
+  "assets": {"model_3d": "monster_boss", "model_fallback": "base_rampage", "model_scale": 1.6},
+  "lore": {"flavor": ""}
+}

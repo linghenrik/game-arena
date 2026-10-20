@@ -1,0 +1,10 @@
+{ "id": "base.tower.pulse_array", "kind": "tower",
+  "name": "Pulse Array", "description": "Longest range on the tree by a wide margin, trading HP and damage for reach.",
+  "levels": [{"cost": 70.0, "hp": 350.0, "attack_damage": 14.0, "attack_range": 160.0, "attack_cooldown": 1.0}],
+  "skill_point_costs": [80.0, 120.0, 160.0],
+  "skills": [
+    {"kind": "stat", "augment": "base.augment.pulse_array.range"},
+    {"kind": "stat", "augment": "base.augment.pulse_array.rate"},
+    {"kind": "active", "ability": "base.ability.minefield", "augments": ["base.augment.minefield.up"]}
+  ],
+  "assets": {"model_3d": "tower_pulse_array", "model_fallback": "tower_arrow", "icon": "radar-sweep"}, "lore": {"flavor": ""} }

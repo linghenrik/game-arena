@@ -1,0 +1,3 @@
+{ "id": "base.ability.basic_attack_group", "kind": "ability",
+  "name": "Basic Attack", "description": "An internal anchor point that hero basic-attack augments hook into and has no effect on its own.",
+  "cost": {}, "duration": 0.0, "lore": {"flavor": ""} }

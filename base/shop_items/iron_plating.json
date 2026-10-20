@@ -1,0 +1,4 @@
+{ "id": "base.shop_item.iron_plating", "kind": "shop_item",
+  "name": "Iron Plating", "description": "Grants Iron Plating, increasing the hero's armor by 0.05.",
+  "channel": "hero", "grant_kind": "augment", "grants": "base.augment.iron_plating", "price": 350.0,
+  "assets": {"icon": "guarded-tower"}, "lore": {"flavor": ""} }

@@ -1,0 +1,10 @@
+{ "id": "base.tower.threshing_post", "kind": "tower",
+  "name": "Threshing Post", "description": "Short range, brutal damage — built to shred whatever reaches the gate.",
+  "levels": [{"cost": 62.0, "hp": 420.0, "attack_damage": 24.0, "attack_range": 110.0, "attack_cooldown": 0.95}],
+  "skill_point_costs": [80.0, 120.0, 160.0],
+  "skills": [
+    {"kind": "stat", "augment": "base.augment.threshing_post.damage"},
+    {"kind": "stat", "augment": "base.augment.threshing_post.aoe"},
+    {"kind": "active", "ability": "base.ability.war_harvest", "augments": ["base.augment.war_harvest.up"]}
+  ],
+  "assets": {"model_3d": "tower_threshing_post", "model_fallback": "tower_arrow", "icon": "scythe"}, "lore": {"flavor": ""} }

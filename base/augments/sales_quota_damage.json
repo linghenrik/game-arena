@@ -1,0 +1,5 @@
+{ "id": "base.augment.sales_quota.damage", "kind": "augment",
+  "name": "Upsell", "description": "Stacks to add 8 attack damage to the tower per rank.",
+  "applies_to": "base.ability.tower_core_stats",
+  "deltas": {"attack_damage_add": 8.0}, "stackable": true,
+  "assets": {"icon": "ancient-sword"}, "lore": {"flavor": ""} }

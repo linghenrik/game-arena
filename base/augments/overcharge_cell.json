@@ -1,0 +1,3 @@
+{ "id": "base.augment.overcharge_cell", "kind": "augment",
+  "name": "Overcharge Cell", "description": "Increases the hero's maximum energy by 25.",
+  "applies_to": "base.ability.core_stats", "deltas": {"max_energy_add": 25.0}, "lore": {"flavor": ""} }

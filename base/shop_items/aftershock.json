@@ -1,0 +1,4 @@
+{ "id": "base.shop_item.aftershock", "kind": "shop_item",
+  "name": "Aftershock", "description": "Grants Aftershock, a hero augment that stuns nearby enemies for 0.3s whenever an active ability is cast.",
+  "channel": "hero", "grant_kind": "augment", "grants": "base.augment.aftershock", "price": 500.0,
+  "assets": {"icon": "explosion-rays"}, "lore": {"flavor": ""} }

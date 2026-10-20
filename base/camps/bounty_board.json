@@ -1,0 +1,12 @@
+{
+  "id": "base.camp.bounty_board", "kind": "camp",
+  "name": "Bounty Board", "description": "A notice board of hero contracts, defended by the jungle's hired muscle.",
+  "theme": "Hero hunting",
+  "monsters": [{"unit": "base.monster.brute", "count": 1}, {"unit": "base.monster.pest", "count": 2}],
+  "respawn": 60.0, "leash": 250.0, "aggro_radius": 180.0, "shop": false,
+  "catalog": [
+    {"item": "base.shop_item.camp_wanted_posters", "unlock": {"team_camp_clears_of_A3": 1, "team_kills_of_hero": 1}},
+    {"signature_slot": 1, "unlock": {"team_camp_clears_of_A3": 3, "team_kills_of_hero": 3}}
+  ],
+  "lore": {"summary": ""}
+}

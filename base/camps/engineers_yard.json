@@ -1,0 +1,12 @@
+{
+  "id": "base.camp.engineers_yard", "kind": "camp",
+  "name": "Engineers' Yard", "description": "A scrapyard of half-built tower parts, picked over by jungle squatters.",
+  "theme": "Tower upgrades",
+  "monsters": [{"unit": "base.monster.brute", "count": 1}, {"unit": "base.monster.pest", "count": 2}],
+  "respawn": 60.0, "leash": 250.0, "aggro_radius": 180.0, "shop": false,
+  "catalog": [
+    {"item": "base.shop_item.camp_reinforced_frames", "unlock": {"team_camp_clears_of_B2": 1, "team_towers_built": 4}},
+    {"signature_slot": 2, "unlock": {"team_camp_clears_of_B2": 3, "team_towers_built": 8}}
+  ],
+  "lore": {"summary": ""}
+}

@@ -1,0 +1,3 @@
+{ "id": "base.ai.hold_lane", "kind": "ai_profile",
+  "name": "Hold Lane", "description": "A defensive AI profile with a standard 1.0x aggro multiplier and a short 40-unit leash that keeps it close to its post.",
+  "aggro_mult": 1.0, "chase_leash": 40.0 }

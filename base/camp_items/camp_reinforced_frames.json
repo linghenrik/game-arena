@@ -1,0 +1,4 @@
+{ "id": "base.shop_item.camp_reinforced_frames", "kind": "shop_item",
+  "name": "Reinforced Frames", "description": "Towers your team builds or upgrades from now on have 8% more health.",
+  "channel": "camp", "grant_kind": "team_modifier", "grants": "", "modifiers": {"tower_hp_pct": 0.08}, "price": 120.0,
+  "assets": {"icon": "guarded-tower"}, "lore": {"flavor": ""} }

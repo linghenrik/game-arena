@@ -1,0 +1,10 @@
+{ "id": "base.tower.photon_bastion", "kind": "tower",
+  "name": "Photon Bastion", "description": "R&D's pet project — highest base damage on the tree, short leash.",
+  "levels": [{"cost": 63.0, "hp": 410.0, "attack_damage": 23.0, "attack_range": 115.0, "attack_cooldown": 0.95}],
+  "skill_point_costs": [80.0, 120.0, 160.0],
+  "skills": [
+    {"kind": "stat", "augment": "base.augment.photon_bastion.damage"},
+    {"kind": "stat", "augment": "base.augment.photon_bastion.aoe"},
+    {"kind": "active", "ability": "base.ability.photon_lift", "augments": ["base.augment.photon_lift.up"]}
+  ],
+  "assets": {"model_3d": "tower_photon_bastion", "model_fallback": "tower_arrow", "icon": "energy-shield"}, "lore": {"flavor": ""} }

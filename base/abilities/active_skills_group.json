@@ -1,0 +1,3 @@
+{ "id": "base.ability.active_skills_group", "kind": "ability",
+  "name": "Active Skills", "description": "An internal anchor point that hero active-ability augments hook into and has no effect on its own.",
+  "cost": {}, "duration": 0.0, "lore": {"flavor": ""} }

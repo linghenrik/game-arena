@@ -1,0 +1,4 @@
+{ "id": "base.shop_item.snare_trap", "kind": "shop_item",
+  "name": "Snare Trap", "description": "Grants the Snare Trap ability, rooting nearby enemies within a 180 radius of the hero for 1.5 seconds.",
+  "channel": "hero", "grant_kind": "ability", "grants": "base.ability.snare_trap", "price": 500.0,
+  "assets": {"icon": "land-mine"}, "lore": {"flavor": ""} }

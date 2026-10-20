@@ -1,0 +1,4 @@
+{ "id": "base.shop_item.scout_pulse", "kind": "shop_item",
+  "name": "Scout Pulse", "description": "Grants the Scout Pulse ability, revealing the area within a 260 radius of the hero for 4 seconds.",
+  "channel": "hero", "grant_kind": "ability", "grants": "base.ability.scout_pulse", "price": 350.0,
+  "assets": {"icon": "radar-sweep"}, "lore": {"flavor": ""} }

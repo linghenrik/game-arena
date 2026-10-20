@@ -1,0 +1,8 @@
+{ "id": "base.ability.group_onboarding", "kind": "ability",
+  "sfx": {"cast": "ability_cast"},
+  "name": "Group Onboarding", "description": "Heals allied units in a 150 radius around the target point for 60 HP.",
+  "cost": {"cooldown": 28.0}, "cast_mobility": "locked", "duration": 0.0,
+  "cast_range": 900.0,
+  "radius": 150.0, "amount": 60.0,
+  "assets": {"icon": "party-flags"},
+  "on_cast": [{"do": "heal", "area": "circle", "at": "cast_at", "radius": "$radius", "amount": "$amount"}], "lore": {"flavor": ""} }

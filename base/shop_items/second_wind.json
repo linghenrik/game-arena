@@ -1,0 +1,4 @@
+{ "id": "base.shop_item.second_wind", "kind": "shop_item",
+  "name": "Second Wind", "description": "Grants the Second Wind ability, healing the hero for 90 HP on cast.",
+  "channel": "hero", "grant_kind": "ability", "grants": "base.ability.second_wind", "price": 400.0,
+  "assets": {"icon": "health-potion"}, "lore": {"flavor": ""} }

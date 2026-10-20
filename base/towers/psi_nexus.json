@@ -1,0 +1,10 @@
+{ "id": "base.tower.psi_nexus", "kind": "tower",
+  "name": "Psi Nexus", "description": "The old keep, repurposed as a signal relay — balanced stats, strong late skills.",
+  "levels": [{"cost": 65.0, "hp": 360.0, "attack_damage": 16.0, "attack_range": 125.0, "attack_cooldown": 1.0}],
+  "skill_point_costs": [80.0, 120.0, 160.0],
+  "skills": [
+    {"kind": "stat", "augment": "base.augment.psi_nexus.vision"},
+    {"kind": "stat", "augment": "base.augment.psi_nexus.aoe"},
+    {"kind": "active", "ability": "base.ability.psi_dome", "augments": ["base.augment.psi_dome.up"]}
+  ],
+  "assets": {"model_3d": "tower_psi_nexus", "model_fallback": "tower_arrow", "icon": "castle"}, "lore": {"flavor": ""} }

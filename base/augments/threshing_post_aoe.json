@@ -1,0 +1,5 @@
+{ "id": "base.augment.threshing_post.aoe", "kind": "augment",
+  "name": "Wide Swing", "description": "Stacks to add 20 splash radius to the tower per rank.",
+  "applies_to": "base.ability.tower_core_stats",
+  "deltas": {"splash_radius_add": 20.0}, "stackable": true,
+  "assets": {"icon": "explosion-rays"}, "lore": {"flavor": ""} }

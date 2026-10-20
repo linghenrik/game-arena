@@ -1,0 +1,8 @@
+{ "id": "base.augment.aftershock", "kind": "augment",
+  "name": "Aftershock", "description": "Adds a 0.3-second stun in a 150-radius burst around the hero whenever they cast an active ability.",
+  "applies_to": "base.ability.active_skills_group",
+  "add_hooks": {
+    "on_cast": [
+      {"do": "apply_status", "area": "circle", "at": "caster", "radius": 150.0, "tag": "stun", "dur": 0.3}
+    ]
+  }, "lore": {"flavor": ""} }

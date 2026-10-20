@@ -1,0 +1,7 @@
+{
+  "id": "base.hero.rampage", "kind": "hero", "hero_class": "breaker",
+  "hp": 380.0, "speed": 60.0,
+  "abilities": ["base.ability.shockwave"],
+  "assets": {"model_3d": "base_rampage"},
+  "lore": {"title": "", "bio": "", "quote": ""}
+}

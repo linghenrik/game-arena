@@ -1,0 +1,1 @@
+{ "id": "base.class.breaker", "kind": "hero_class", "tag": "breaker", "strong_vs": ["swarm"], "weak_vs": ["elite"], "lore": {"summary": ""} }

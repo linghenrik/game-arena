@@ -1,0 +1,4 @@
+{ "id": "base.shop_item.marked_prey", "kind": "shop_item",
+  "name": "Marked Prey", "description": "Grants Marked Prey, revealing the area around any enemy hit by a basic attack for 3 seconds.",
+  "channel": "hero", "grant_kind": "augment", "grants": "base.augment.marked_prey", "price": 400.0,
+  "assets": {"icon": "crosshair"}, "lore": {"flavor": ""} }

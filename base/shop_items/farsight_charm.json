@@ -1,0 +1,4 @@
+{ "id": "base.shop_item.farsight_charm", "kind": "shop_item",
+  "name": "Farsight Charm", "description": "Grants Farsight Charm, increasing the hero's sight radius by 40.",
+  "channel": "hero", "grant_kind": "augment", "grants": "base.augment.farsight_charm", "price": 300.0,
+  "assets": {"icon": "eye-target"}, "lore": {"flavor": ""} }

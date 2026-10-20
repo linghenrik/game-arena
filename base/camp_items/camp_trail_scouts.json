@@ -1,0 +1,4 @@
+{ "id": "base.shop_item.camp_trail_scouts", "kind": "shop_item",
+  "name": "Trail Scouts", "description": "Minions your team spawns from now on see 30 units farther.",
+  "channel": "camp", "grant_kind": "team_modifier", "grants": "", "modifiers": {"minion_sight_add": 30.0}, "price": 80.0,
+  "assets": {"icon": "eye-target"}, "lore": {"flavor": ""} }

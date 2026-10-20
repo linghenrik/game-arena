@@ -1,0 +1,4 @@
+{ "id": "base.shop_item.swift_boots", "kind": "shop_item",
+  "name": "Swift Boots", "description": "Grants Swift Boots, increasing the hero's move speed by 15.",
+  "channel": "hero", "grant_kind": "augment", "grants": "base.augment.swift_boots", "price": 300.0,
+  "assets": {"icon": "bullets"}, "lore": {"flavor": ""} }

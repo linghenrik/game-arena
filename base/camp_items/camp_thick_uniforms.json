@@ -1,0 +1,4 @@
+{ "id": "base.shop_item.camp_thick_uniforms", "kind": "shop_item",
+  "name": "Thick Uniforms", "description": "Every minion your team spawns from now on has 10% more health.",
+  "channel": "camp", "grant_kind": "team_modifier", "grants": "", "modifiers": {"minion_hp_pct": 0.10}, "price": 140.0,
+  "assets": {"icon": "energy-shield"}, "lore": {"flavor": ""} }

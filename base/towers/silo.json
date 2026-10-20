@@ -1,0 +1,10 @@
+{ "id": "base.tower.silo", "kind": "tower",
+  "name": "Silo", "description": "Slow-firing but heavily armored — the tankiest tower on the tree.",
+  "levels": [{"cost": 70.0, "hp": 380.0, "attack_damage": 22.0, "attack_range": 145.0, "attack_cooldown": 1.1}],
+  "skill_point_costs": [80.0, 120.0, 160.0],
+  "skills": [
+    {"kind": "stat", "augment": "base.augment.silo.range"},
+    {"kind": "stat", "augment": "base.augment.silo.damage"},
+    {"kind": "active", "ability": "base.ability.stasis_lattice", "augments": ["base.augment.stasis_lattice.up"]}
+  ],
+  "assets": {"model_3d": "tower_silo", "model_fallback": "tower_arrow", "icon": "guarded-tower"}, "lore": {"flavor": ""} }

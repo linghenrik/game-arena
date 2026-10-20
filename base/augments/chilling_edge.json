@@ -1,0 +1,9 @@
+{ "id": "base.augment.chilling_edge", "kind": "augment",
+  "name": "Chilling Edge", "description": "Slows enemies hit by basic attacks to 60% speed for 2 seconds.",
+  "applies_to": "base.ability.basic_attack_group",
+  "deltas": {"slow_dur": 2.0, "slow_mult": 0.6},
+  "add_hooks": {
+    "on_hit": [
+      {"do": "apply_status", "target": "hit", "tag": "chilled", "dur": "$slow_dur", "speed_mult": "$slow_mult"}
+    ]
+  }, "lore": {"flavor": ""} }

@@ -1,0 +1,8 @@
+{ "id": "base.ability.psi_dome", "kind": "ability",
+  "sfx": {"cast": "ability_cast"},
+  "name": "Psi Dome", "description": "Shields nearby allies inside a protective dome.",
+  "cost": {"cooldown": 35.0}, "cast_mobility": "locked", "duration": 0.0,
+  "cast_range": 900.0,
+  "radius": 220.0, "dur": 8.0,
+  "assets": {"icon": "base-dome"},
+  "on_cast": [{"do": "create_zone", "at": "cast_at", "radius": "$radius", "dur": "$dur"}], "lore": {"flavor": ""} }

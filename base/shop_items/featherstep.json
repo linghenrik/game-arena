@@ -1,0 +1,4 @@
+{ "id": "base.shop_item.featherstep", "kind": "shop_item",
+  "name": "Featherstep", "description": "Grants the Featherstep ability, boosting the hero's move speed by 50% for 2 seconds.",
+  "channel": "hero", "grant_kind": "ability", "grants": "base.ability.featherstep", "price": 300.0,
+  "assets": {"icon": "bow-arrow"}, "lore": {"flavor": ""} }

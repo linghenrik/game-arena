@@ -1,0 +1,6 @@
+{ "id": "base.augment.battle_focus", "kind": "augment",
+  "name": "Battle Focus", "description": "Grants the hero 1 second of invulnerability whenever they cast an active ability.",
+  "applies_to": "base.ability.active_skills_group",
+  "add_hooks": {
+    "on_cast": [{"do": "apply_status", "target": "self", "tag": "invuln", "dur": 1.0}]
+  }, "lore": {"flavor": ""} }

@@ -1,0 +1,5 @@
+{ "id": "base.augment.photon_bastion.damage", "kind": "augment",
+  "name": "Overclock", "description": "Stacks to add 10 attack damage to the tower per rank.",
+  "applies_to": "base.ability.tower_core_stats",
+  "deltas": {"attack_damage_add": 10.0}, "stackable": true,
+  "assets": {"icon": "ancient-sword"}, "lore": {"flavor": ""} }
