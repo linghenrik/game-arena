@@ -40,7 +40,7 @@
     {"id": "N1", "pos": [796, 684], "camp": "base.camp.old_mill"},
     {"id": "N2", "pos": [793, 1440], "camp": "base.camp.old_mill"}
   ],
-  "ground": {"texture": "ground_grass"},
+  "ground": {"texture": "ground_mud"},
   "terrain": [
     {"type": "wall", "pos": [500, 760], "length": 120.0, "thickness": 20.0, "model_3d": "wall_stone"},
     {"type": "wall", "pos": [1100, 760], "length": 120.0, "thickness": 20.0, "model_3d": "wall_stone"},
