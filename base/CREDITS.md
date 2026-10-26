@@ -69,3 +69,4 @@ Every model, icon and texture in this pack is CC0, public domain or CC BY (credi
 | assets/models/wall_stone.glb | CC0-1.0 | https://poly.pizza/m/tdeAOh3LQV | Quaternius | converted by the game's build tools |
 | assets/models/worker.glb | CC0-1.0 | https://quaternius.com/packs/ultimatedanimatedcharacter.html | Quaternius | clips renamed to idle/run/attack/hit/death, unused clips dropped (tools/remap_glb_anims.gd) |
 | assets/textures/ground_grass.png | CC0-1.0 | https://ambientcg.com/view?id=Grass004 | ambientCG | Grass004, color/diffuse map only |
+| assets/textures/ground_mud.png | CC0-1.0 | https://ambientcg.com/view?id=Ground051 | ambientCG | colour map only, 1K PNG as downloaded |
