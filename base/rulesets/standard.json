@@ -35,5 +35,6 @@
   "bot_think_hz": 3.0,
   "minion_scan_interval": 0.2,
   "default_ai_profile": "base.ai.hold_lane",
-  "bot_defaults": {"hero": "base.hero.rampage", "commander_ai": "base.commander_ai.default", "hero_ai": "base.hero_ai.default"}
+  "bot_defaults": {"hero": "base.hero.rampage", "commander_ai": "base.commander_ai.default", "hero_ai": "base.hero_ai.default"},
+  "vfx_defaults": {"slots": {}, "looks": {}}
 }
