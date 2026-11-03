@@ -4,6 +4,6 @@
   "deltas": {"slow_dur": 2.0, "slow_mult": 0.6},
   "add_hooks": {
     "on_hit": [
-      {"do": "apply_status", "target": "hit", "tag": "chilled", "dur": "$slow_dur", "speed_mult": "$slow_mult"}
+      {"do": "apply_status", "target": "hit", "tag": "chilled", "look": "chill", "dur": "$slow_dur", "speed_mult": "$slow_mult"}
     ]
   }, "lore": {"flavor": ""} }
