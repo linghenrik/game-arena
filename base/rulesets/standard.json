@@ -36,5 +36,22 @@
   "minion_scan_interval": 0.2,
   "default_ai_profile": "base.ai.hold_lane",
   "bot_defaults": {"hero": "base.hero.rampage", "commander_ai": "base.commander_ai.default", "hero_ai": "base.hero_ai.default"},
-  "vfx_defaults": {"slots": {}, "looks": {}}
+  "vfx_defaults": {
+    "slots": {
+      "tracer": {"model": "fx_bolt"},
+      "dart": {"model": "fx_dart"},
+      "cone": {"model": "fx_cone"},
+      "circle": {"model": "fx_disc"},
+      "fuse": {"model": "fx_fuse"},
+      "dome": {"model": "fx_dome"}
+    },
+    "looks": {
+      "root": {"model": "fx_look_root"},
+      "slow": {"model": "fx_look_slow"},
+      "shield": {"model": "fx_look_shield"},
+      "haste": {"model": "fx_look_haste"},
+      "chill": {"model": "fx_look_chill"},
+      "glow": {"model": "fx_look_glow"}
+    }
+  }
 }
